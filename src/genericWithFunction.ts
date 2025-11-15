@@ -24,3 +24,18 @@ const arrObj2 = createArrayWithGeneric({
     name: "Mr. C"
 })
 
+
+// tuple
+
+const createArrayWithTuple = (param1: string, param2: string) => [
+    param1,
+    param2,
+];
+
+const createArrayTupleWithGeneric = <X, Y> (param1: X, param2: Y) =>[
+    param1,
+    param2,
+]
+
+const res1 = createArrayTupleWithGeneric("Dev",24);
+const res2 = createArrayTupleWithGeneric(24, "Dev")
