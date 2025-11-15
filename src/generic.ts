@@ -19,7 +19,7 @@ const coordinates2: Coordinates<string, string> = ['20', '30'];
 
 // Object
 // We can not use Generic like that: 
-GenericArray<object>
+// GenericArray<object>
 
 const userList: GenericArray<{name: string, age: number}> = [
     {
@@ -33,3 +33,21 @@ const userList: GenericArray<{name: string, age: number}> = [
     },
 
 ]
+
+
+// we can also use type alias
+
+type User = {name: string, age: number};
+
+const userList2: GenericArray<User>=[
+    {
+        name: "Mr. X",
+        age: 25
+    },
+    {
+        name: "Mr. Y",
+        age: 26
+    }
+];
+
+console.log(userList2);
