@@ -80,3 +80,5 @@ console.log(Role[1]);    // "Admin"
 // Magic string/number avoid করা যায়
 // Switch-case logic খুব clean হয়
 // আমরা (.) notation দিয়ে value access করতে পারি
+
+// kintu senior developer ra enum recommend kore na.কোডে অতিরিক্ত জাঙ্ক জেনারেট করে। ফলে জাভাস্ক্রিপ্টের বান্ডেল সাইজটা বেড়ে যাবে
