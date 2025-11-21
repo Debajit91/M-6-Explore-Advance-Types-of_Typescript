@@ -24,7 +24,7 @@ interface Branded {
 
 const Developer1: Developer<NonBranded,{
         brand: string;
-        model: string;
+        model: number;
 }> = {
   name: "Mr. Dev1",
   salary: 20000,
@@ -45,7 +45,7 @@ const Developer2: Developer<
   Branded,
   {
     brand: string;
-    model: string;
+    model: number;
   }
 > = {
   name: "Mr. Dev2",
@@ -63,6 +63,8 @@ const Developer2: Developer<
   },
   bike: {
     brand: "Yamaha",
-    model: "Y-30",
+    model: 30,
   },
 };
+
+console.log(Developer2);

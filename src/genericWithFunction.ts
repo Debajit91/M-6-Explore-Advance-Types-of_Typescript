@@ -1,5 +1,5 @@
 // Generic Function
-// here every time we have to write a function when to change the value type. for this we can write a generic function 
+// here every time we have to write a function when to change the value type. For this we can write a generic function 
 
 const createArrayWithString = (value: string) => [value];
 
